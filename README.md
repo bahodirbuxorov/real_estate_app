@@ -105,7 +105,7 @@ flutter run
 ## 📧 Contact
 
 
-- **GitHub:** [baxa073](https://github.com/bahodirbuxorov)
+- **GitHub:** [bahodirbuxorov](https://github.com/bahodirbuxorov)
 
 ---
 
