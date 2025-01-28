@@ -1,16 +1,57 @@
-# home
+# 🏡 Real Estate Mobile App
 
-Uy sotish, sotib olish va ijaraga olish uchun maxsus yaratilgan qulay mobil platforma. Bu yerda siz o'zingizga qulay joylashuvda bo'lgan ko'chmas mulkni tez va oson topishingiz, sotuv yoki ijara uchun e'lonlarni berishingiz mumkin.
+## 📌 About the Project
+Real Estate Mobile App is a **Flutter-based** real estate platform that helps users explore properties, manage their favorite listings, and make informed purchasing decisions.
 
-## Getting Started
+🔹 **Beautiful UI & Responsive Design**  
+🔹 **GetX for State Management**  
+🔹 **Modern & Clean Architecture**  
+🔹 **Fast & Smooth Performance**  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
+✅ **Property Listing** - Browse different properties with detailed information.  
+✅ **Property Details** - View house size, rooms, location, and other specifications.  
+✅ **Favorite Listings** - Save your favorite properties.  
+✅ **Shopping Cart** - Add properties for further comparison.  
+✅ **Profile Management** - Manage user profile and preferences.  
+✅ **Modern UI** - A beautiful and interactive user experience.  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+This project is built using:
+- **Flutter (Dart)** - Cross-platform mobile app framework.
+- **GetX** - Lightweight state management and routing.
+- **Stylish Bottom Bar** - Custom bottom navigation.
+- **FontAwesomeFlutter** - Icons for a better UI.
+- **Smooth Page Indicator** - For carousel and pagination.
+
+---
+
+## 📂 Project Structure
+- **Flib/
+- **│── core/              # App core utilities (Colors, Themes, Data)
+│   ├── app_color.dart
+│   ├── app_data.dart
+│   ├── app_theme.dart
+│   ├── extensions.dart
+│
+│── src/
+│   ├── controller/     # GetX Controllers for state management
+│   │   ├── product_controller.dart
+│   │
+│   ├── model/         # Data models for the app
+│   │   ├── product.dart
+│   │   ├── product_category.dart
+│   │   ├── product_size_type.dart
+│   │   ├── recommended_product.dart
+│   │
+│   ├── view/          # UI Components and Screens
+│   │   ├── animation/   # Animated UI wrappers
+│   │   ├── screen/      # Main screens (Home, Cart, Profile, etc.)
+│   │   ├── widget/      # Reusable widgets (Sliders, Grids, etc.)
+│
+│── main.dart          # App entry point
+
